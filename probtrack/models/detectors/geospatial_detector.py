@@ -9,7 +9,7 @@ from probtrack.geometry.distributions import rotate_dist, scale_dist, shift_dist
 from mmengine.dataset import Compose
 from datetime import datetime
 from probtrack.structs import GeospatialDetections, BBoxDetections
-sys.path.append('/home/csamplawski/src/iobtmax-data-tools')
+#sys.path.append('/home/csamplawski/src/iobtmax-data-tools')
 from spatial_transform_utils import *
 import torch_tracking as tracking
 import json
